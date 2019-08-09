@@ -1,0 +1,107 @@
+:root{
+    font-size: 1vw;
+}
+
+.top-bar{
+    background-color: #eeeeee;
+    margin-left: 0.05%;
+}
+
+.profile-picture{
+    width: 6vh;
+    height: 6vh;
+}
+
+.profile-picture-expanded{
+    width: 30vh;
+    height: 30vh;
+}
+
+.modal-body{
+    background-color: #eeeeee;
+}
+
+.chatter{
+    margin-top: 1vh;
+    text-align: left;
+}
+
+.chat-box{
+    height: 88vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-image: url(./images/wallpaper.png);
+}
+.message-box-align-left{
+    text-align: left;
+}
+
+.message-box-align-right{
+    text-align: right;
+}
+
+.message{
+    display: inline-block;
+    width: auto;
+    min-width: 20%;
+    max-width: 40%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1vw;
+    padding: 0.5vh;
+    background-color: white;
+}
+
+.my-message{
+    display: inline-block;
+    width: auto;
+    min-width: 20%;
+    max-width: 40%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1vw;
+    padding: 0.5vh;
+    background-color: #dcf8c6;
+}
+
+.align-left{
+    text-align: left;
+    margin: 0;
+}
+
+.align-right{
+    text-align: right;
+    margin: 0;
+}
+
+.Feynman{
+    color: blue;
+}
+
+.Oppenheimer{
+    color: red;
+}
+
+.Szilard{
+    color: green;
+}
+
+.Lawrence{
+    color: maroon;
+}
+
+.members-heading{
+    margin-top: 1vh;
+    text-align: left;
+}
+
+.members-body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.individual-member{
+    /* background: none; */
+}
