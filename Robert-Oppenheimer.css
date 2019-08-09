@@ -19,13 +19,6 @@
 
 .modal-body{
     background-color: #eeeeee;
-    height: 60vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-.modal-dialog{
-    max-height: 20vh;
 }
 
 .chatter{
@@ -81,35 +74,4 @@
 .align-right{
     text-align: right;
     margin: 0;
-}
-
-.Feynman{
-    color: blue;
-}
-
-.Oppenheimer{
-    color: red;
-}
-
-.Szilard{
-    color: green;
-}
-
-.Lawrence{
-    color: maroon;
-}
-
-.members-heading{
-    margin-top: 1vh;
-    text-align: left;
-}
-
-.individual-member{
-    background: #eeeeee;
-    margin-top: 1.7vh;
-    text-align: left;
-}
-
-.individual-member:hover{
-    background-color: #d4d4d4;
 }

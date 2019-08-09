@@ -40,6 +40,11 @@
     /* margin-left: 1vw; */
 }
 
+.profile-picture-expanded{
+    width: 30vh;
+    height: 30vh;
+}
+
 .whatsapp-heading{
     color:#25D366;
     text-align: right;
@@ -53,4 +58,8 @@
     width: 6vh;
     height: 6vh;
     margin-left: 1vw;
+}
+
+.last-chat-time{
+    text-align: right;
 }
