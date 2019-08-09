@@ -6,6 +6,10 @@
     margin-top: 2vh;
 }
 
+.main-background{
+    background-image: url(./images/wallpaper.png);
+}
+
 .chat-box{
     height: 88vh;
     overflow-y: scroll;
@@ -22,6 +26,9 @@
     background-color: transparent;
     color: inherit;
 }
+
+/* .individual-chat{
+} */
 
 .a .a:hover{
     background: none;
@@ -62,4 +69,66 @@
 
 .last-chat-time{
     text-align: right;
+}
+
+/* For Phones and Tablets*/
+@media screen and (max-width: 1024px){
+    .whatsapp-heading{
+        font-size: 4rem;
+    }
+
+    .profile-picture{
+        margin-top: 0.25vh;
+        margin-bottom: 0.25vh;
+    }
+
+    .chat-image{
+        margin-top: 0.3vh;
+        margin-bottom: 0.3vh;
+    }
+
+    .card-title{
+        font-size: 3.5rem;
+    }
+
+    .card-subtitle{
+        font-size: 3rem;
+    }
+
+    .last-chat-time{
+        font-size: 3rem;
+    }
+
+    .modal-title{
+        font-size: 4rem;
+    }
+
+    .modal-dialog{
+        max-width: 70%;
+        margin-left: 15%; 
+    }
+
+    .close{
+        color: red;
+        font-size: 5rem;
+    }
+}
+
+/* Some minor modification for tablets */
+@media screen and (min-width: 577px) and (max-width: 1024px){
+    .whatsapp-heading{
+        font-size: 3.4rem;
+    }
+
+    .last-chat-time{
+        font-size: 2.4rem;
+    }
+
+    .modal-title{
+        font-size: 3.4rem;
+    }
+    .close{
+        color:red;
+        font-size: 5rem;
+    }
 }
