@@ -92,6 +92,7 @@
     margin: 0;
 }
 
+/* For phones and tablets */
 @media screen and (max-width: 1024px){
     .chatter{
         margin-left: 0;

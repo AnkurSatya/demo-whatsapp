@@ -11,95 +11,97 @@
 
     <body>
 
-    <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <ul class="list-group list-group-flush">
-                            <div class="container row top-bar d-flex align-items-center">
-                                <div class="col-1" style="padding: 0; margin: 0;">
-                                    <h1 class="picture-adjustment">&#8249;</h1>
-                                    <a href="index.html" class="stretched-link"></a>
-                                </div>
-                                <div class="col-1">
-                                        <a href="" data-toggle="modal" data-target="#profile-picture-expanded">
-                                            <img src="./images/manhattan-project.jpg" class="img-fluid rounded-circle profile-picture">
-                                        </a>
+    <div class="container-fluid">        
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card main-background">
+                            <ul class="list-group list-group-flush">
+                                <div class="container row top-bar d-flex align-items-center">
+                                    <div class="col-1" style="padding: 0; margin: 0;">
+                                        <h1 class="back-button">&#8249;</h1>
+                                        <a href="index.html" class="stretched-link"></a>
+                                    </div>
+                                    <div class="col-3 col-sm-2">
+                                            <a href="" data-toggle="modal" data-target="#profile-picture-expanded">
+                                                <img src="./images/manhattan-project.jpg" class="img-fluid rounded-circle profile-picture">
+                                            </a>
 
-                                    <!-- Modal to show the profile picture in an enlarged view -->
+                                        <!-- Modal to show the profile picture in an enlarged view -->
 
-                                    <div class="modal fade" id="profile-picture-expanded" tabindex="-1" role="dialog" aria-labelledby="profilePictureExpandedLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header" style="background-color: #dcf8c6">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Manhattan Project</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body" style="text-align: center;">
-                                                    <img src="./images/manhattan-project.jpg" class="img-fluid rounded-circle profile-picture-expanded">
-                                                    <div class="members-heading">
-                                                        <h5>Members</h5>
+                                        <div class="modal fade" id="profile-picture-expanded" tabindex="-1" role="dialog" aria-labelledby="profilePictureExpandedLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header" style="background-color: #dcf8c6">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Manhattan Project</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
                                                     </div>
-                                                    <div class="members-body">
-                                                        <div class="container">
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/feynman.jpg" class="img-fluid rounded-circle profile-picture">
+                                                    <div class="modal-body" style="text-align: center;">
+                                                        <img src="./images/manhattan-project.jpg" class="img-fluid rounded-circle profile-picture-expanded">
+                                                        <div class="members-heading-container">
+                                                            <h5 class="members-heading-text">Members</h5>
+                                                        </div>
+                                                        <div class="members-body">
+                                                            <div class="container">
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/feynman.jpg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">You</p>
+                                                                        <a href="index.html" class="stretched-link"></a>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-10">
-                                                                    <p class="member-name">You</p>
-                                                                    <a href="index.html" class="stretched-link"></a>
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/oppenheimer.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Robert Oppenheimer</p>
+                                                                        <a href="Robert-Oppenheimer.html" class="stretched-link"></a>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/oppenheimer.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/szilard.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Leo Szilard</p>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-10">
-                                                                    <p>Robert Oppenheimer</p>
-                                                                    <a href="Robert-Oppenheimer.html" class="stretched-link"></a>
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/seaborg.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Glen Seaborg</p>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/szilard.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/fuchs.jpeg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Klaus Fuchs</p>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-10">
-                                                                    <p>Leo Szilard</p>
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/bethe.jpg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Hans Bethe</p>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/seaborg.jpeg" class="img-fluid rounded-circle profile-picture">
-                                                                </div>
-                                                                <div class="col-10">
-                                                                    <p>Glen Seaborg</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/fuchs.jpeg" class="img-fluid rounded-circle profile-picture">
-                                                                </div>
-                                                                <div class="col-10">
-                                                                    <p>Klaus Fuchs</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/bethe.jpg" class="img-fluid rounded-circle profile-picture">
-                                                                </div>
-                                                                <div class="col-10">
-                                                                    <p>Hans Bethe</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row individual-member">
-                                                                <div class="col-2">
-                                                                    <img src="images/lawrence.jpg" class="img-fluid rounded-circle profile-picture">
-                                                                </div>
-                                                                <div class="col-10">
-                                                                    <p>Ernest Lawrence</p>
+                                                                <div class="row individual-member">
+                                                                    <div class="col-3 col-sm-2">
+                                                                        <img src="images/lawrence.jpg" class="img-fluid rounded-circle profile-picture">
+                                                                    </div>
+                                                                    <div class="col-9 col-sm-10">
+                                                                        <p class="member-name">Ernest Lawrence</p>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -107,52 +109,52 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
+                                    </div>
+                                    <div class="col-8 col-sm-9">
+                                        <p class="chatter col-10">Manhattan Project</p>    
+                                    </div>
                                 </div>
-                                <div class="col-10">
-                                    <p class="chatter col-10">Manhattan Project</p>    
-                                </div>
-                            </div>
 
-                            <div class="chat-box">
-                                <div class="message-box-align-left">
-                                    <div class="message">
-                                        <h6 class="Oppenheimer align-left">Robert Oppenheimer</h6>
-                                        <p style="margin:0;">Hi all, the purpose of the creation of this group is to discuss about the ways in which we can create a weapon of mass destruction to stop Germany from winning the war. Please suggest!</p>
-                                        <p class="text-muted align-right">10:30 PM</p>
+                                <div class="chat-box">
+                                    <div class="message-box-align-left">
+                                        <div class="message">
+                                            <h6 class="Oppenheimer align-left">Robert Oppenheimer</h6>
+                                            <p class="align-left">Hi all, the purpose of the creation of this group is to discuss about the ways in which we can create a weapon of mass destruction to stop Germany from winning the war. Please suggest!</p>
+                                            <p class="text-muted align-right">10:30 PM</p>
+                                        </div>
+                                    </div>
+                                    <div class="message-box-align-right">
+                                        <div class="my-message">
+                                            <h6 class="Feynman align-left">Richard Feynman</h6>
+                                            <p class="align-left">Hey guys, I think harnessing the nuclear energy would be a good start. But the difficulty arises from the engineering perspective. On papers, we can create many such weapons of mass destruction but moulding them into something tangible is a humongous task.</p>
+                                            <p class="text-muted align-right">10:33 PM</p>
+                                        </div>
+                                    </div>
+                                    <div class="message-box-align-left">
+                                        <div class="message">
+                                            <h6 class="Szilard align-left">Leo Szilard</h6>
+                                            <p class="align-left">I agree with Mr. Feynman. We should add some representative of the engineering team to the group.</p>
+                                            <p class="text-muted align-right">10:35 PM</p>
+                                        </div>
+                                    </div>
+                                    <div class="message-box-align-left">
+                                        <div class="message">
+                                            <h6 class="Lawrence align-left">Ernest Lawrence</h6>
+                                            <p class="align-left">Yes. Including the engineering team is a good solution. Also, I think we need to work on the separation of Isotopes of Uranium.</p>
+                                            <p class="text-muted align-right">10:38 PM</p>
+                                        </div>
+                                    </div>
+                                    <div class="message-box-align-left">
+                                        <div class="message">
+                                            <h6 class="Oppenheimer align-left">Robert Oppenheimer</h6>
+                                            <p class="align-left">Okay. I will add the engineering department representative for more fruitful discussion. Also, we have got some good ideas to start working on.</p>
+                                            <p class="text-muted align-right">10:41 PM</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="message-box-align-right">
-                                    <div class="my-message">
-                                        <h6 class="Feynman align-left">Richard Feynman</h6>
-                                        <p class="align-left">Hey guys, I think harnessing the nuclear energy would be a good start. But the difficulty arises from the engineering perspective. On papers, we can create many such weapons of mass destruction but moulding them into something tangible is a humongous task.</p>
-                                        <p class="text-muted align-right">10:33 PM</p>
-                                    </div>
-                                </div>
-                                <div class="message-box-align-left">
-                                    <div class="message">
-                                        <h6 class="Szilard align-left">Leo Szilard</h6>
-                                        <p class="align-left">I agree with Mr. Feynman. We should add some representative of the engineering team to the group.</p>
-                                        <p class="text-muted align-right">10:35 PM</p>
-                                    </div>
-                                </div>
-                                <div class="message-box-align-left">
-                                    <div class="message">
-                                        <h6 class="Lawrence align-left">Ernest Lawrence</h6>
-                                        <p class="align-left">Yes. Including the engineering team is a good solution. Also, I think we need to work on the separation of Isotopes of Uranium.</p>
-                                        <p class="text-muted align-right">10:38 PM</p>
-                                    </div>
-                                </div>
-                                <div class="message-box-align-left">
-                                    <div class="message">
-                                        <h6 class="Oppenheimer align-left">Robert Oppenheimer</h6>
-                                        <p class="align-left">Okay. I will add the engineering department representative for more fruitful discussion. Also, we have got some good ideas to start working on.</p>
-                                        <p class="text-muted align-right">10:41 PM</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

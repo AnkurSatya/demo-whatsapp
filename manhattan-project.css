@@ -2,6 +2,14 @@
     font-size: 1vw;
 }
 
+.container-fluid{
+    background-image: url(./images/wallpaper.png)
+}
+
+.main-background{
+    background-image: url(./images/wallpaper.png)
+}
+
 .top-bar{
     background-color: #eeeeee;
     margin-left: 0.05%;
@@ -99,7 +107,7 @@
     color: maroon;
 }
 
-.members-heading{
+.members-heading-container{
     margin-top: 1vh;
     text-align: left;
 }
@@ -112,4 +120,55 @@
 
 .individual-member:hover{
     background-color: #d4d4d4;
+}
+
+/* For phones and tablets */
+@media screen and (max-width: 1024px){
+    .back-button{
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 5rem;
+    }
+
+    .profile-picture{
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
+
+    .chatter{
+        margin-left: 0;
+        padding-left: 0;
+        font-size:  3.4rem;
+    }
+
+    .align-left{
+        font-size: 2.7rem;
+    }
+
+    .align-right{
+        font-size: 2.7rem;
+    }
+
+    .modal-title{
+        font-size: 4rem;
+    }
+
+    .modal-dialog{
+        max-width: 70%;
+        margin-left: 15%; 
+    }
+
+    .close{
+        color: red;
+        font-size: 5rem;
+    }
+
+    .members-heading-text{
+        font-size: 3.2rem;
+    }
+
+    .member-name{
+        font-size: 3rem;
+        margin-top: 2.4vh;
+    }
 }
